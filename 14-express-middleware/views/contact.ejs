@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<h1> <%= title %></h1>
+			<p> Desc : <%= desc %></p>
+
+			<h4>Daftar Orang</h4>
+			<% if(orang.length <= 1){ %>
+				<p>Data Orang Kosong</p>
+			<% } %>
+			<% orang.forEach(org => { %>
+				<ul>
+					<li>Nama : <%= org.nama %></li>	
+					<li>Kelas : <%= org.kelas %></li>	
+				</ul>
+			<% }) %>
+
+		</div>
+	</div>
+</div>

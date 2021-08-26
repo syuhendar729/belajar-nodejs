@@ -1,0 +1,19 @@
+<!-- Perbedaan `-` dan `=` adalah `-` tidak menjadikan escape karakter--!>
+	<!-- Escape karakter => tag html menjadi &lt dan sebagainya --!>
+<%- include('templates/header') %>
+<%- include('templates/nav') %>
+<!-- <%= include('templates/nav') %> --!>
+		<h1> <%= title %></h1>
+		<p> Desc : <%= desc %></p>
+
+		<h4>Daftar Orang</h4>
+		<% if(orang.length <= 1){ %>
+			<p>Data Orang Kosong</p>
+		<% } %>
+		<% orang.forEach(org => { %>
+			<ul>
+				<li>Nama : <%= org.nama %></li>	
+				<li>Kelas : <%= org.kelas %></li>	
+			</ul>
+		<% }) %>
+<%- include('templates/footer') %>

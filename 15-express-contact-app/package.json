@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "name": "express-contact-app",
+  "description": "/* === Middleware ===  *   * => Sebuah sowftware yg menghubungkan software atau aplikasi lain  * => Sebuah software penghubung antara sistem operasi dan aplikasi  * => Sekarang bisa digunakan di :  * - database  * - web server  * - game engine  * - web apps, mobile apps, desktop, apps  *   * --- Pada Web Apps ---  * request => App => respond  * request => middleware - App - middleware => respond  * middleware bisa berupa:  * - routing  * - authentication  *  * --- Express Middleware ---  * => Aplikasi express berisi pemanggilan funsi middleware  *  * --- Function middleware ---  * => Sebuah fungsi yg memiliki akse ke object request req(), respond res(), dan fungsi middleware berikutnya next()  * => Dapat melakukan:  * \t- Eksekusi berbagai code  * \t- Membuat perubahan pd request dan respond object  * \t- Mengakhiri siklus request-respond  * \t- Memanggil function middleware berikutnya dgn next()  *   * --- Macam2 Middleware ---  * => User defined middleware  * \t- Aplication-level middleware  * \t- Router-level middleware  * \t- Error-handling middleware  * => Built in middleware  * => Third party middleware  *  * Note:  * Bbrp function tanpa next() bisa `hang`  * Penyimpanan code middleware harus sesuai dgn urutan nya  * next() buat ke middleware (function) berikutnya  *  * */",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syuhendar729/express-contact-app.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "syuhendar729",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syuhendar729/express-contact-app/issues"
+  },
+  "homepage": "https://github.com/syuhendar729/express-contact-app#readme"
+}

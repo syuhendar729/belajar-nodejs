@@ -1,0 +1,6 @@
+[submodule "9-10-contact-app"]
+	path = 9-10-contact-app
+	url = https://github.com/syuhendar729/contact-app
+[submodule "web-contact"]
+	path = web-contact
+	url = https://github.com/syuhendar729/nodejs-web-contact

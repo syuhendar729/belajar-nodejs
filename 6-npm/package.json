@@ -1,0 +1,15 @@
+{
+  "name": "6-npm",
+  "version": "1.0.0",
+  "description": "Belajar npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "syuhendar729",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.6.0"
+  }
+}

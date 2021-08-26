@@ -1,0 +1,36 @@
+{
+  "name": "mongodb-contact-app",
+  "version": "1.0.0",
+  "description": "Membuat contact app dengan database mongoDB dan framework express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syuhendar729/mongodb-contact-app.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "nodejs",
+    "mongoose",
+    "javascript",
+    "webapp"
+  ],
+  "author": "syuhendar729",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syuhendar729/mongodb-contact-app/issues"
+  },
+  "homepage": "https://github.com/syuhendar729/mongodb-contact-app#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.7"
+  }
+}
