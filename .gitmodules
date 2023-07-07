@@ -4,3 +4,9 @@
 [submodule "web-contact"]
 	path = web-contact
 	url = https://github.com/syuhendar729/nodejs-web-contact
+[submodule "mongodb-webcontact-finished"]
+	path = mongodb-webcontact-finished
+	url = https://github.com/syuhendar729/mongodb-web-contact
+[submodule "mongodb-web-contact"]
+	path = mongodb-web-contact
+	url = https://github.com/syuhendar729/mongodb-web-contact.git
